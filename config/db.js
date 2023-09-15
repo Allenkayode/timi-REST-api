@@ -4,7 +4,7 @@ const Config = require("../utils/config");
 const initMongo = () => {
   console.log("mongo WTF");
   mongoose
-    .connect(Config.MONGO_URL, {
+    .connect("mongodb://127.0.0.1:27017/Persons", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       autoIndex: true,
