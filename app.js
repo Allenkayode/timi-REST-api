@@ -5,6 +5,8 @@ const { route } = require("./routes/PersonRoute");
 
 initMongo();
 
+const app = express();
+
 app.use(express.json());
 app.use(
   expressSession({
@@ -16,7 +18,7 @@ app.use(
 
 app.use("/", route);
 
-const app = express();
+
 
 app.listen(Config.Port, () => {
   console.log(`api running on ${Config.Port}`);
