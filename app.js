@@ -6,13 +6,6 @@ const { route } = require("./routes/PersonRoute");
 
 initMongo();
 app.use(express.json());
-app.use(
-  expressSession({
-    secret: "Rusty is a dog",
-    resave: false,
-    saveUninitialized: false,
-  })
-);
 
 app.use("/", route);
 
