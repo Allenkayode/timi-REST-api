@@ -14,7 +14,7 @@ app.use(
   })
 );
 
-app.use(router);
+app.use('/', router );
 
 const app = express();
 
