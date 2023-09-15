@@ -5,9 +5,6 @@ const { initMongo } = require("./config/db");
 const { route } = require("./routes/PersonRoute");
 
 initMongo();
-
-
-
 app.use(express.json());
 app.use(
   expressSession({
