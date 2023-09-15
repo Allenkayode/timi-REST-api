@@ -6,7 +6,7 @@ Welcome to the comprehensive documentation for our REST API, designed to facilit
 
 Our REST API adheres to industry best practices, providing a robust and flexible solution for creating, retrieving, updating, and deleting person records. In this documentation, you will find detailed information on each endpoint, request and response formats, and example use cases to help you make the most of this resource.
 
-**Base URL:** `https://ayomide-rest-api.vercel.app/api`
+**Base URL:** `https://timi-REST-api.vercel.app/api`
 
 **Authentication:** No authentication is required for using this API, ensuring seamless integration into your applications.
 

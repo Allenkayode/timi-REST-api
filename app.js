@@ -1,7 +1,8 @@
 const express = require("express");
 const Config = require("./utils/config");
 const { initMongo } = require("./config/db");
-const { router } = require("./router");
+const { router } = require("./PersonRoute");
+const { route } = require("./routes/PersonRoute");
 
 initMongo();
 
@@ -14,7 +15,7 @@ app.use(
   })
 );
 
-app.use('/', router );
+app.use("/", route);
 
 const app = express();
 

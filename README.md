@@ -31,13 +31,13 @@ Before setting up and running the API, make sure you have the following prerequi
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/Allenkayode/timi-REST-api.git
+   git clone https://github.com/Allenkayode/timi-Rest-api.git
    ```
 
 2. Navigate to the project directory:
 
    ```shell
-   cd timi-REST-api
+   cd Rest-api-hngx
    ```
 
 3. Install the project dependencies:
@@ -81,7 +81,7 @@ After then follow the steps below:
 
 You can navigate to the Test Script Folder to run the python script to test the CRUD operations.
 
-Here is the **Hosted API:** `https://timi-REST-api.vercel.app/api`
+Here is the **Hosted API:** `https://timi-rest-api.vercel.app/api`
 
 You can use tools like [Postman](https://www.postman.com/) or [ThunderCLient] to test the API endpoints.
 
