@@ -7,7 +7,7 @@ const {
   getPerson,
   updatePerson,
   deletePerson,
-} = require("../controllers/personController");
+} = require("../controllers/person");
 //Person route
 // Create a new person
 router.post("/api", createPerson);
