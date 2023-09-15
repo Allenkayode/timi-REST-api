@@ -1,7 +1,6 @@
 const express = require("express");
 const Config = require("./utils/config");
 const { initMongo } = require("./config/db");
-const { router } = require("./PersonRoute");
 const { route } = require("./routes/PersonRoute");
 
 initMongo();
