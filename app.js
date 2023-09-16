@@ -2,12 +2,12 @@ const express = require("express");
 const app = express();
 const Config = require("./utils/config");
 const { initMongo } = require("./config/db");
-const { route } = require("./routes/PersonRoute");
+const { routes } = require("./routes/PersonRoute");
 
 initMongo();
 app.use(express.json());
 
-app.use(route);
+app.use(routes);
 
 
 
