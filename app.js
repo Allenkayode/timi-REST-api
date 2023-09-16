@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const Config = require("./utils/config");
 const { initMongo } = require("./config/db");
-const { routes } = require("./routes/PersonRoute");
+const { routes } = require("./routes/personRoute");
 
 initMongo();
 app.use(express.json());
