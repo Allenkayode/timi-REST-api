@@ -7,7 +7,7 @@ const { route } = require("./routes/PersonRoute");
 initMongo();
 app.use(express.json());
 
-app.use("/", route);
+app.use(route);
 
 
 
