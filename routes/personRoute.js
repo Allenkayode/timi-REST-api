@@ -26,4 +26,6 @@ router.put("/api/:idOrName", updatePerson);
 // Delete a person by _id or name
 router.delete("/api/:idOrName", deletePerson);
 
+
 module.exports = router;
+return router;
